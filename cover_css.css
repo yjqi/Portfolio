@@ -1,17 +1,17 @@
-html { overflow-y: scroll; }
-
 body{background-image: url("../image/background_2.jpg");
+	position: absolute;
 	background-size: cover;}
 
-.container{ /*display:table;*/ 
+
+.container{ display:table;
 	clear: both;
 	margin: auto;
 	margin-left: 15%;
 	margin-top: 150px;
 	width: 60%; height: 80%;
-	/*border: 1px solid black;*/}
+	/*border: 1px solid black*/;}
 
-img{display: inline-block;
+#head{display: inline-block;
 	float: left; 
 	margin:0 8%;
 	width:30%; 
@@ -19,9 +19,11 @@ img{display: inline-block;
 	opacity: 0.95;}
 
 .content{display:inline-block; 
-	float: left; 
-	margin-left: 0px;
-	width: 45%;}
+	text-align: center;
+	width: 45%;
+	/*border: 1px solid black;*/}
+
+
 
 h1{display: block;
 	font-family: Times;
@@ -32,3 +34,6 @@ h2{	display:block;
 	font-family: Arial;
 	color:#000d1a;
 }
+
+
+
