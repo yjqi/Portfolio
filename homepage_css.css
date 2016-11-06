@@ -1,12 +1,12 @@
 body{margin: 50px;
-	background-color:#e6f5ff;
-	background-image: url("");}
+	/*background-color:#e6f5ff;*/
+	background-image: url("../image/background-image.gif");}
 
 header{
 	display: block;
 	height: 80px;
 	width: 90%;
-	margin: 0px 50px;
+	margin: auto;
 	/*border: 1px solid;*/}
 
 .name_logo{
@@ -30,7 +30,9 @@ header{
 	float: left;
 	font-family: helvetica;
 	font-size: 25px;
-	text-align: left;}
+	text-align: left;
+	color: #01579b;}
+
 
 
 
@@ -39,11 +41,12 @@ header{
 	width: 40%;
 	height: 100%;
 	float: right;
+	font-size: 15px;
 	vertical-align: middle;
 	/*border: 1px solid;*/}
 
 
-a:link, a:visited {color: #00004d;
+.nav a:link, a:visited {color: #00004d;
 	background-color:rgba(255,255,255);
   	font-family: helvetica;
   	text-decoration: none;
@@ -53,38 +56,87 @@ a:link, a:visited {color: #00004d;
   	vertical-align: middle;
   	text-align: center;
   	}
-a:hover{color: white;
+.nav a:hover{color: white;
 background-color: #0288d1;}
-a:activc{color: white; 
+.nav a:activc{color: white; 
 background-color:#0288d1;}
 
+.current_link{color: #ffffff;
+   background:#ccdcff;}
 
 
 
 
 
-.container{width: 500px;
-	height: 500px;
+
+
+
+/*gallery*/
+
+.gallery{
+	width: 80%;
+	margin:auto;
 }
 
-#photo{
-	float: left;
-	width: 50%;
-	height:50%; 
-        }
+.photos {
+  display: inline-block;
+  margin: auto;
+}
+
+.photos a {
+  display: inline-block;
+  float: left;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  opacity: 0.75;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.photos a:hover {
+  opacity: 1.0;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.photos img{display: inline-block;
+	width: 300px;
+	height: 300px;}
+
+@media only screen and (max-width: 700px){
+    .container {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+footer{text-align: center;
+font-family: helvetica;
+color: grey;
+font-size: 12px;}
 
 
-.image{
-    	line-height:20px;
-    	display: block;
-		width: 300px;
-    	height: 300px;
-		background-repeat: no-repeat;
-    	color:grey;
-    	text-align: center;
-    	background-color: #8e68ff;
-    	background-size: 100%;
-    	font-size:150%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
