@@ -1,0 +1,99 @@
+body{background-image: url("../image/background-image.gif");}
+
+#title_image{
+width: 100%;
+height: 580px;
+background-image: url("../image/project1/01.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: fixed;
+margin-bottom: 10px;
+background-attachment: fixed;}
+
+
+
+#headline{
+	width: 80%;
+	height: 150px;
+	margin:auto;
+	margin-bottom: 100px;
+	}
+
+
+#headline>h1 {
+	display:inline-block;
+	float: left;
+	font-family: Helvetica;
+	color: #002b80;
+	font-size: 30px;
+	width:35%;
+	height:150px;
+	margin: auto;
+	padding: 10px 0;
+	/*border:1px solid;*/
+	}
+
+#headline>p{
+	display:inline-block;
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 15px;
+	width:20%;
+	padding: 10px 0;
+	height:150px;
+	/*border:1px solid;*/
+	}
+
+#headline>div{display:inline-block;
+	float: right;
+	width:40%;
+	line-height:150px;
+	vertical-align: middle;
+	padding: 10px 0;
+	}
+
+
+#overview>h1,p{
+	margin: auto;
+	display:block;
+	width: 80%;
+	margin-bottom: 100px;
+	}
+#overview>h1{
+	color:#757575;
+	margin-bottom: 10px;
+	border-bottom: 1.8px solid rgba(51, 51, 51, 0.5);
+	}
+#overview>p{
+	line-height: 30px;
+	}
+
+#overview>div{display: block;
+	float: center;
+	margin: 40px auto 60px;
+	width: 50%;}
+
+
+
+
+
+#siteresearch>h1,p{
+	margin: auto;
+	display:block;
+	width: 80%;
+	margin-bottom: 50px;
+	}
+
+#siteresearch>h1{
+	color:#757575;
+	margin-bottom: 10px;
+	border-bottom: 1.8px solid rgba(51, 51, 51, 0.5);
+	}
+#siteresearch>p{
+	line-height: 30px;
+	}
+
+#siteresearch>div{display: inline-block;
+	float: left;
+	margin: 20px 50px 50px 10%;
+	width: 50%;}
