@@ -1,0 +1,44 @@
+.profile{margin-top: 150px; 
+}
+
+
+
+.head{
+	display:block;
+	width: 20%;
+	height: 20%;
+	margin: auto;}
+
+.head img{
+	display:block;
+	width:200px;
+	height: 200px;
+	margin: auto;}
+
+
+.introduction{
+	display:block;
+	margin: auto;
+	width: 80%;
+	height: 500px;}
+
+p{font-family: helvetica;
+	text-align: center;
+}
+
+
+#resume{
+	display: block;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: #002b80;
+	margin:auto;
+	border-radius: 5px;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;}
+
+
+
