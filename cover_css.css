@@ -1,15 +1,13 @@
-body{background-image: url("../image/background_2.jpg");
+body{background-image: url("../image/background_2.jpg"); /* source:http://wallpapercave.com/dark-forest-wallpapers*/
 	position: absolute;
 	background-size: cover;}
-
 
 .container{ display:table;
 	clear: both;
 	margin: auto;
 	margin-left: 15%;
 	margin-top: 150px;
-	width: 60%; height: 80%;
-	/*border: 1px solid black*/;}
+	width: 60%; height: 80%;}
 
 #head{display: inline-block;
 	float: left; 
@@ -23,17 +21,43 @@ body{background-image: url("../image/background_2.jpg");
 	width: 45%;
 	/*border: 1px solid black;*/}
 
+#arrow:{-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;}
+#arrow:hover { -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.4); /* Firefox */
+    -ms-transform:scale(1.4); /* IE 9 */
+    -o-transform:scale(1.4); /* Opera */
+     transform:scale(1.4);}
 
 
 h1{display: block;
-	font-family: Times;
-	color:#000d1a;}
+	font-family: helvetica;
+	color:#000d1a;
+	font-size: 2.5em;}
 
 h2{	display:block;
 	font-size: 1.2em;
-	font-family: Arial;
+	font-family: helvetica;
 	color:#000d1a;
 }
 
 
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	}
+	
+@media screen and (min-width:800px){
+	h1{text-align: center;}
+	h1:after{content: "(I guess...)"}
+	img{display:inline-block;
+		width: 15%;
+		float: center;}
+	section{display: table-cell;
+		width: 50%;
+		}
+	
+    
+}
 
