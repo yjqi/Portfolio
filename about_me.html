@@ -3,26 +3,22 @@
 <head>
 	<title>Yingjin Qi's Portfolio</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../css/about_me.css"><link rel="stylesheet" type="text/css" href="../css/main.css">
-
-
-	
-
-	</head>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/project1.css">
+</head>
 <body>
 <header>
 	<div id="name_logo">
 		<img id="logo" src="../image/Logo.png">
 		<h1>YINGJIN QI</h1>
 	</div>
-	<nav class="nav">
+	<div class="nav"><nav >
 		<a href="cover.html" target="_self">HOME</a>
-		<a href="homepage.html" target="_self">PORTFOLIO</a>
-		<a class="current_link" href="about_me.html">ABOUT ME</a>
+		<a class="current_link" href="homepage.html" target="_self">PORTFOLIO</a>
+		<a href="about_me.html">ABOUT ME</a>
 		<a href="">CONTACT</a>	</nav>
-	</nav>
-	<!--mobile nav-->
+	</nav></div>
+		<!--mobile nav-->
 	 <div id="dropdown">
   		<button onclick="myFunction()" class="dropbtn">More</button>
   		<div id="myDropdown" class="dropdown-content">
@@ -32,26 +28,48 @@
 			<a href="">CONTACT</a>	</nav>
   		</div>
 	</div>
-	
 </header>
 
-<section class="profile">
-	<div class="head"><img src="../image/head2.png"></div>
-	<div></div>
-	<div class="introduction">
-		<p>Hi, My name is Yingjin Qi!</p>
-		<p>I'm now studying Human Computer Interaction in University of Michigan, Ann Arbor! </p><br>
-		<a id="resume"href="../image/Resume_YQ.pdf" target="_blank">RESUME</a>
+<section>
+	<div id="title_image"></div>
+	<div id="headline">
+		<h1>SENSORY INTERACTION</h1>
+		<p>To improve people’s environmental perception</p>
+		<div><img src="../image/project1/LOCATION.png" width="400px"></div>
 	</div>
-	
 </section>
+
+<section>
+	<div id="overview">
+	<h1>PROJECT OVERVIEW</h1>
+	<p>The landscape recources in Sun Yat-sen University are rich but people are still not satisfied with the current activity places. They also complain about the insufficiency of open space.
+	Design goal here is to enhance people’s perception of the environment in order to provide them a better experience.
+	</p>
+	<div><img src="../image/project1/PROCESS.gif" width="600px"></div>
+	</div>
+	<div id="siteresearch">
+		<h1>SITE RESEARCH</h1>
+		<p>To better understand fundatmental elements of the site, I used layer analysis mehtod.The high vegetation rate shows the site is rich in natural recources. From field survey, I found out two features that should be highlightened in design.</p>
+		<div><img src="../image/project1/site-layers.png" width="1000px"></div>
+	</div>
+</section>
+
+
 
 
 <footer>
 	<p>&copy;Created by Yingjin Qi</p>
+	<div class="footer-social-icons">
+    <ul class="social-icons">
+        <li><a href="http://www.facebook.com" class="social-icon"> <<img src="http://www.womenactionmedia.org/cms/assets/themes/crate/images/social/facebook.png" alt="facebook-icon"></a></li>
+        <li><a href="http://www.twitter.com" class="social-icon"> <img src="http://grfx.cstv.com/schools/wis/graphics/icon_twitter24.jpg" alt="twitter-icon"></a></li>
+        <li><a href="http://www.youtube.com" class="social-icon"> <img src="http://mylzh.net/wiki/worldofwarcraft/images/5/5d/Icon-youtube-22x22.png" alt="youtube-icon"></a></li>
+    </ul>
+  </div>
 </footer>
-
 </body>
+
+
 
 
 <script type="text/javascript">
@@ -75,8 +93,6 @@ window.onclick = function(event) {
 }
 
 </script>
-
-
 
 
 </html>
