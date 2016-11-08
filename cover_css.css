@@ -45,19 +45,71 @@ h2{	display:block;
 }
 
 
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+@media screen and (max-width: 900px) {
+	body{background-image: none; }
+	#head{display:block;
+		width: 50%;
+		clear: both;
+		margin: auto;
+		}
+	.container{ display:block;
+	clear: both;
+	margin: auto;
+	margin-top: 100px;
+	width: 80%; height: 80%;
+	}
+	h1{display: inline-block;
+		padding:10px 30px 10px 40px;
+		font-size: 30px;
+		width: 250px;
+		font-family: times;
+		text-align: left;}
+	h2{display: block;
+		padding:10px 60px 10px 60px;
+		text-align: left;
+		font-size: 15px;
+		width: 100%;
+		margin: auto;
+
+
+
+
+
 	}
 	
-@media screen and (min-width:800px){
-	h1{text-align: center;}
-	h1:after{content: "(I guess...)"}
-	img{display:inline-block;
-		width: 15%;
-		float: center;}
-	section{display: table-cell;
-		width: 50%;
+@media screen and (max-width:400px){
+	body{background-image: none; }
+	.container{ display:block;
+	clear: both;
+	margin: auto;
+	margin-top: 100px;
+	width: 80%; height: 80%;
+	}
+
+
+
+	#head{display:block;
+		width: 100%;
+		clear: both;
+		margin: auto;
 		}
+
+	h1{display: block;
+		padding:10px 60px 10px 60px;
+		font-size: 20px;
+		width: 100%;
+		font-family: times;
+		margin: auto;
+		text-align: center;}
+	h2{display: block;
+		padding:10px 60px 10px 60px;
+		text-align: center;
+		font-size: 15px;
+		width: 100%;
+		margin: auto;
+	}
 	
-    
+    #arrow{margin:auto;
+    padding:10px 60px 10px 88px;}
 }
 
