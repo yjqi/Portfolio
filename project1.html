@@ -18,6 +18,16 @@
 		<a href="about_me.html">ABOUT ME</a>
 		<a href="">CONTACT</a>	</nav>
 	</nav></div>
+		<!--mobile nav-->
+	 <div id="dropdown">
+  		<button onclick="myFunction()" class="dropbtn">More</button>
+  		<div id="myDropdown" class="dropdown-content">
+	    	<a href="cover.html" target="_self">HOME</a>
+			<a href="homepage.html" target="_self">PORTFOLIO</a>
+			<a class="current_link" href="about_me.html">ABOUT ME</a>
+			<a href="">CONTACT</a>	</nav>
+  		</div>
+	</div>
 </header>
 
 <section>
@@ -51,4 +61,31 @@
 	<p>&copy;Created by Yingjin Qi</p>
 </footer>
 </body>
+
+
+
+
+<script type="text/javascript">
+	
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+
+
 </html>
